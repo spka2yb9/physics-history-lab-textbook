@@ -118,6 +118,26 @@
   .brand-en { display: none; }
 }
 
+/* ===== 読書の進み具合 =====
+ * ヘッダーの下端の棒が、このページのうちどこまでスクロールしたかを示す。
+ * 百分率は広い画面だけヘッダーに添え、狭い画面では棒だけにする。 */
+.reading-progress {
+  position: fixed; top: calc(var(--topbar-h) - 3px); left: 0; right: 0;
+  height: 3px; z-index: 31; pointer-events: none;
+  background: color-mix(in srgb, var(--on-navy) 16%, transparent);
+  opacity: 0; transition: opacity 0.25s ease;
+}
+.reading-progress[data-active] { opacity: 1; }
+.reading-progress-fill { width: 100%; height: 100%; background: var(--on-navy); transform: scaleX(0); transform-origin: left center; }
+.reading-percent {
+  flex: none; min-width: 3.8em; padding: 3px 8px; text-align: center;
+  border: 1px solid color-mix(in srgb, var(--on-navy) 30%, transparent); border-radius: 999px;
+  color: var(--on-navy); font-size: 12px; font-weight: 700; line-height: 1.5; font-variant-numeric: tabular-nums;
+}
+.reading-percent[data-complete] { background: var(--on-navy); border-color: var(--on-navy); color: var(--navy); }
+@media (max-width: 520px) { .reading-percent { display: none; } }
+@media print { .reading-progress, .reading-percent { display: none !important; } }
+
 /* ===== 目次（サイドバー）と本文の配置 =====
  * 章のページ：広い画面は左に目次、右にページ内見出し。章以外のページ：目次を出さず、狭い画面でだけメニューとして開く */
 .sidebar-site { display: none; list-style: none; margin: 0 0 12px; padding: 0 0 10px; border-bottom: 1px solid var(--line); }

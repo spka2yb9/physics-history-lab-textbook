@@ -6,6 +6,7 @@ import { SearchDialog } from './components/Search'
 import { MapPage } from './components/MapPage'
 import { FieldsPage } from './components/FieldsPage'
 import { PeoplePage, PersonPage } from './components/PeoplePages'
+import { ReadingProgress } from './components/ReadingProgress'
 import { BrandMark } from './components/Brand'
 import { chapterByKey, chapterLabel } from './content/chapters'
 import { CHAPTER_KEYS, PARTS, shortFor } from './content/book'
@@ -156,6 +157,7 @@ export default function App() {
             )}
           </ul>
         </nav>
+        <ReadingProgress key={routeKey} />
         <button className="search-btn" onClick={() => setSearchOpen(true)} aria-label="検索" aria-keyshortcuts="Control+K /">
           <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.8">
             <circle cx="7" cy="7" r="5" />
