@@ -228,21 +228,6 @@ export function PersonPage({ id }: { id: string }) {
         </section>
       )}
 
-      <section className="sources" aria-labelledby="psrc-h">
-        <h2 id="psrc-h">参考資料</h2>
-        <ol>
-          {p.sources.map((s, i) => (
-            <li key={i}>
-              <a href={s.url} target="_blank" rel="noreferrer">
-                {s.title}
-              </a>
-              、{s.publisher}
-              {s.version && `、${s.version}`}。参照日 {s.accessed}。{s.note && <span className="src-note">{s.note}</span>}
-            </li>
-          ))}
-        </ol>
-      </section>
-
       <nav className="prev-next" aria-label="前後の人物（生まれた年の順）">
         {prev ? (
           <a className="prev" href={personHref(prev.id)}>

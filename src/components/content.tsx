@@ -1,5 +1,4 @@
 import type { ReactNode } from 'react'
-import type { Source } from '../content/types'
 import { hrefFor } from '../utils/route'
 import { keyForShort, labelFor } from '../content/book'
 
@@ -113,18 +112,7 @@ export function FigRef({ n }: { n: string }) {
   )
 }
 
-/* ---------- 出典 ---------- */
-
-/** 本文中の出典参照 [1] のような番号。章の sources の1始まりの番号。 */
-export function Ref({ n }: { n: number }) {
-  return (
-    <sup className="ref">
-      <a href={`#src-${n}`} onClick={(e) => scrollToId(e, `src-${n}`)}>
-        [{n}]
-      </a>
-    </sup>
-  )
-}
+/* ---------- 図への参照のスクロール ---------- */
 
 function scrollToId(e: React.MouseEvent, id: string) {
   const el = document.getElementById(id)
@@ -132,24 +120,4 @@ function scrollToId(e: React.MouseEvent, id: string) {
     e.preventDefault()
     el.scrollIntoView({ block: 'center' })
   }
-}
-
-export function SourceList({ sources }: { sources: Source[] }) {
-  if (sources.length === 0) return null
-  return (
-    <section className="sources" aria-labelledby="sources-h">
-      <h2 id="sources-h">参考資料</h2>
-      <ol>
-        {sources.map((s, i) => (
-          <li key={i} id={`src-${i + 1}`}>
-            <a href={s.url} target="_blank" rel="noreferrer">
-              {s.title}
-            </a>
-            、{s.publisher}
-            {s.version && `、${s.version}`}。参照日 {s.accessed}。{s.note && <span className="src-note">{s.note}</span>}
-          </li>
-        ))}
-      </ol>
-    </section>
-  )
 }

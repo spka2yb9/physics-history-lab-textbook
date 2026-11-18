@@ -25,7 +25,7 @@ npm run build
 
 `dist/` に静的ファイルが出力されます。ビルドは次の順で動きます。
 
-1. `npm run build:index` — 各章を描画して、全文検索の索引 `src/content/search-index.json`、目次・前後の章・参考資料一覧に使う章の情報 `src/content/chapter-meta.json`、用語の一覧 `src/content/terms.json` を生成
+1. `npm run build:index` — 各章を描画して、全文検索の索引 `src/content/search-index.json`、目次・前後の章に使う章の情報 `src/content/chapter-meta.json`、用語の一覧 `src/content/terms.json` を生成
 2. `tsc -b` — 型チェック
 3. `vite build` — `dist/` へ出力
 
@@ -39,12 +39,12 @@ npm run check -- 1 intro # 指定した章
 npm run lint
 ```
 
-節 ID の重複、図番号と章の対応と掲載順、出典番号と参考資料の対応、図のアクセシブル名、本文の分量、用語の定義の重複などを機械的に検査します。用語が定義より前の節に出てくる箇所は注意（`·`）として表示します。
+節 ID の重複、図番号と章の対応と掲載順、図のアクセシブル名、本文の分量、用語の定義の重複などを機械的に検査します。用語が定義より前の節に出てくる箇所は注意（`·`）として表示します。
 
 ## ファイルの構成
 
 - `src/content/book.ts` — 書名、部、章の並び
-- `src/chapters/` — 各章の本文と参考資料（第N章は `chNN.tsx`、それ以外は `<キー>.tsx`）
+- `src/chapters/` — 各章の本文（第N章は `chNN.tsx`、それ以外は `<キー>.tsx`）
 - `src/figures/` — 各章の図
 - `src/components/` — 画面と図の部品
 - `src/content/people/` — 科学者図鑑の人物（経歴、業績、肖像の出典と利用条件）

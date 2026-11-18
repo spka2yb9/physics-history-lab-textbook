@@ -32,11 +32,7 @@ export const PEOPLE_COSMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Henrietta_Swan_Leavitt.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Henrietta Swan Leavitt - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Leavitt/', accessed: '2026-11-18', note: '生没の年月日と場所、1892年の卒業と無給での手伝い、1902年の時給30セント、1908年の論文（小マゼラン雲と大マゼラン雲の1777個の変光星、明るいものほど周期が長い）、1912年の確認、耳の不調、1925年のミッタク＝レフラーの手紙。' },
-      { title: 'Leavitt, Henrietta Swan（Biographical Encyclopedia of Astronomers, Springer, 2007）', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）に掲載', url: 'https://mathshistory.st-andrews.ac.uk/BEA/leavitt_bea.pdf', accessed: '2026-11-18', note: '牧師の家の生まれ、大学のころからの聴力の低下、最後の年の天文学の授業、ピッカリングのもとで働いた女性たち、ペルーのアレキパで撮られた乾板、約2400個の変光星、北極の近くの星の明るさが国際的な基準になったこと。' },
-    ],
+    }
   },
   {
     id: 'hubble',
@@ -71,13 +67,7 @@ export const PEOPLE_COSMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Studio_portrait_photograph_of_Edwin_Powell_Hubble.JPG',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Hubble, Edwin Powell（Biographical Encyclopedia of Astronomers, Springer, 2007）', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）に掲載', url: 'https://mathshistory.st-andrews.ac.uk/BEA/hubble_bea.pdf', accessed: '2026-11-18', note: '生年月日と場所、1910年の卒業、オックスフォードでの法律、高校でスペイン語を教えたこと、1917年の博士論文と従軍、1919年のウィルソン山、1923年秋のセファイド変光星と1925年1月1日の発表、銀河の分類、1929年の論文、膨張の解釈を認めなかったこと、アバディーン性能試験場。' },
-      { title: 'Edwin Hubble', publisher: 'NASA ゴダード宇宙飛行センター', url: 'https://asd.gsfc.nasa.gov/archive/hubble/overview/hubble_bio.html', accessed: '2026-11-18', note: '没年月日と死因（心臓発作）、100インチ望遠鏡、1923年のアンドロメダ星雲の変光星、銀河の分類、1929年の速さと距離の関係。' },
-      { title: 'Edwin Powell Hubble - The man who discovered the cosmos', publisher: 'ESA/Hubble（ヨーロッパ宇宙機関）', url: 'https://esahubble.org/about/history/the_scientist_behind_the_name/', accessed: '2026-11-18', note: 'リービットが始めたセファイド変光星による距離の測り方、1923年10月の発見、1942年の従軍、パロマー山の200インチ望遠鏡を1949年に最初に使ったこと。' },
-      { title: 'IAU members vote to recommend renaming the Hubble law as the Hubble–Lemaître law', publisher: '国際天文学連合（IAU）', url: 'https://www.iau.org/IAU/Iau/News/PR2018/hubble-lemaitre-law-renamed.aspx', accessed: '2026-11-18', note: '2018年10月の会員投票で、ハッブルの法則をハッブル・ルメートルの法則と呼ぶことを推奨する決議が採択されたこと。' },
-    ],
+    }
   },
   {
     id: 'lemaitre',
@@ -112,12 +102,7 @@ export const PEOPLE_COSMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:GLemaitre30.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Georges Lemaître - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Lemaitre/', accessed: '2026-11-18', note: '生没の年月日と場所、1911年の入学、砲兵としての従軍、1920年の学位、1923年の司祭叙階、ケンブリッジとハーバード、1925年と1927年のルーヴァン大学、1927年の論文、1931年の英訳と原始的原子の考え、アインシュタインの反応、1934年のフランキ賞、科学アカデミーの会長。' },
-      { title: 'Lemaître, Georges Henri-Joseph-Edouard（Biographical Encyclopedia of Astronomers, Springer, 2007）', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）に掲載', url: 'https://mathshistory.st-andrews.ac.uk/BEA/lemaitre_bea.pdf', accessed: '2026-11-18', note: 'スライファーの測定を使って1927年に膨張の割合を求めたこと、アインシュタインの静止した宇宙が不安定であること、原始的原子、宇宙マイクロ波背景放射の発見を聞いていたこと。' },
-      { title: 'IAU members vote to recommend renaming the Hubble law as the Hubble–Lemaître law', publisher: '国際天文学連合（IAU）', url: 'https://www.iau.org/IAU/Iau/News/PR2018/hubble-lemaitre-law-renamed.aspx', accessed: '2026-11-18', note: '2018年10月の会員投票で、ハッブル・ルメートルの法則と呼ぶことを推奨する決議が採択されたこと。' },
-    ],
+    }
   },
   {
     id: 'gamow',
@@ -151,13 +136,7 @@ export const PEOPLE_COSMO: Person[] = [
       author: '撮影者不明',
       license: '利用の許可を確認済み（サイト運営者が用意した画像）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'George Gamow', publisher: 'Atomic Heritage Foundation（National Museum of Nuclear Science & History）', url: 'https://ahf.nuclearmuseum.org/ahf/profile/george-gamow/', accessed: '2026-11-18', note: '生没の年月日と場所、オデッサとレニングラードの大学、1928年の博士号とゲッティンゲン、コペンハーゲン、1929年のケンブリッジ、1933年のソルベー会議での亡命、1934年のジョージ・ワシントン大学、テラーとの研究、1956年のコロラド大学。' },
-      { title: 'The Distinguished Life and Career of George Gamow', publisher: 'コロラド大学ボールダー校 物理学科', url: 'https://www.colorado.edu/physics/events/outreach/george-gamow-memorial-lecture-series/distinguished-life-and-career-george-gamow', accessed: '2026-11-18', note: '1928年のアルファ崩壊の説明、ガモフ・テラー選択則、1954年の遺伝の暗号、『不思議の国のトムキンス』、1956年のカリンガ賞。' },
-      { title: 'April 1, 1948: The Origin of Chemical Elements（This Month in Physics History）', publisher: 'アメリカ物理学会（APS News）', url: 'https://www.aps.org/apsnews/2008/04/origin-chemical-elements', accessed: '2026-11-18', note: '1948年4月1日の論文、アルファーに計算を任せたこと、ベーテの名前を冗談で加えたこと、アルファーとハーマンの背景放射の予測。' },
-      { title: 'George Gamow（Cosmic Journey）', publisher: 'アメリカ物理学協会（AIP）', url: 'https://history.aip.org/exhibits/cosmology/ideas/gamow.htm', accessed: '2026-11-18', note: 'レニングラード大学でフリードマンのもとで宇宙論を学んだこと、1931年にソ連へ呼び戻されたこと、1933年の亡命。' },
-    ],
+    }
   },
   {
     id: 'chandrasekhar',
@@ -189,13 +168,7 @@ export const PEOPLE_COSMO: Person[] = [
       author: '撮影者不明',
       license: '利用の許可を確認済み（サイト運営者が用意した画像）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Subrahmanyan Chandrasekhar – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1983/chandrasekhar/biographical/', accessed: '2026-11-18', note: '生年月日と場所、プレジデンシー・カレッジ、1930年の奨学金とファウラーの指導、1933年の博士号、1937年のシカゴ大学、7つの研究の時期とその本、没年月日。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Subrahmanyan Chandrasekhar - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Chandrasekhar/', accessed: '2026-11-18', note: '太陽の約1.4倍の質量の上限、エディントンの反論、1952〜1971年の編集長、1995年の『プリンキピア』の本と死去。' },
-      { title: 'Chandrasekhar, Subrahmanyan（Biographical Encyclopedia of Astronomers, Springer, 2007）', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）に掲載', url: 'https://mathshistory.st-andrews.ac.uk/BEA/chandrasekhar_bea.pdf', accessed: '2026-11-18', note: '叔父ラマン、船の中での計算、エディントンとの論争の中身とその後も良い関係だったこと、ヤーキス天文台、ウィリアム・ファウラーとの共同受賞。' },
-      { title: 'About Chandra: Subrahmanyan Chandrasekhar', publisher: 'チャンドラX線センター（ハーバード・スミソニアン天体物理学センター）', url: 'https://chandra.harvard.edu/about/chandra.html', accessed: '2026-11-18', note: '1935年1月11日の王立天文学会でのエディントンとの論争、X線天文衛星の名前の由来。' },
-    ],
+    }
   },
   {
     id: 'hawking',
@@ -231,11 +204,7 @@ export const PEOPLE_COSMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Stephen_hawking_2008_nasa_cropped.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Stephen Hawking - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Hawking/', accessed: '2026-11-18', note: '生没の年月日と場所、1962年の卒業、1963年はじめの診断、1965〜1970年のペンローズとの特異点の研究、1966年の博士号、1974年の王立協会、1979年のルーカス教授職、1983年の無境界仮説、1985年の気管切開、1988年の本。' },
-      { title: 'Professor Stephen Hawking (1942–2018)', publisher: 'ケンブリッジ大学', url: 'https://www.cam.ac.uk/stephenhawking', accessed: '2026-11-18', note: 'シアマの指導、1974年のホーキング放射、エントロピーが表面積の4分の1で表されること、ルーカス教授職（1979〜2009年）、2007年の理論宇宙論センター、『ホーキング、宇宙を語る』。' },
-    ],
+    }
   },
   {
     id: 'rubin',
@@ -270,12 +239,6 @@ export const PEOPLE_COSMO: Person[] = [
       license: 'CC BY 4.0',
       licenseUrl: 'https://creativecommons.org/licenses/by/4.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Vera Cooper Rubin（訃報）', publisher: 'Physics Today（アメリカ物理学協会）', url: 'https://physicstoday.aip.org/obituaries/vera-cooper-rubin', accessed: '2026-11-18', note: '生没の年月日と場所、1948年のヴァッサー大学、コーネル大学の修士、ガモフのもとでの博士課程と1954年の博士号、1965年のカーネギー研究所、フォードの分光器、1970年のアンドロメダ銀河、1993年と1996年の受賞。' },
-      { title: 'Remembering Vera Rubin', publisher: 'Inside Science（アメリカ物理学協会）', url: 'https://www.aip.org/inside-science/remembering-vera-rubin', accessed: '2026-11-18', note: '1965年に女性として初めてパロマー天文台の観測装置を正式に使えたこと、1996年のゴールドメダルが女性として1828年以来だったこと。' },
-      { title: 'Vera Rubin', publisher: 'ヴェラ・C・ルービン天文台', url: 'https://rubinobservatory.org/about/vera-rubin', accessed: '2026-11-18', note: 'フォードの分光器、60を超える銀河で外側の星も内側と同じ速さで回っていたこと、天文台のもとの名前がダークマター望遠鏡だったこと。' },
-      { title: 'Vera Rubin: pioneer of dark matter', publisher: 'マックス・プランク協会', url: 'https://www.mpg.de/24915532/vera-rubin-pioneer-of-dark-matter', accessed: '2026-11-18', note: '1948年にプリンストン大学の大学院が女性を受け入れなかったこと、1954年の博士号、1965年のフォードとの出会い。' },
-    ],
+    }
   },
 ]

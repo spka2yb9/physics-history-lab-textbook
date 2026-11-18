@@ -3,7 +3,6 @@ import { chapterByKey, chapterLabel, loadChapter, type ChapterMeta } from '../co
 import { BOOK_TITLE, CHAPTER_KEYS, PARTS, labelFor } from '../content/book'
 import type { Chapter } from '../content/types'
 import { hrefFor } from '../utils/route'
-import { SourceList } from './content'
 import { glossify } from './glossary'
 import { ChapterPeople } from './history'
 
@@ -102,7 +101,6 @@ export function ChapterView({ chapter, section, restoreY }: { chapter: ChapterMe
       ))}
 
       {full && chapter.people && <ChapterPeople ids={chapter.people} />}
-      {full && <SourceList sources={chapter.sources} />}
 
       <nav className="prev-next" aria-label="前後の章">
         {prev ? (

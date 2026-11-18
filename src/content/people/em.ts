@@ -32,12 +32,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Joseph_Siffrein_Duplessis_-_Benjamin_Franklin_-_Google_Art_Project.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Benjamin Franklin FAQ', publisher: 'The Franklin Institute', url: 'https://fi.edu/en/science-and-education/benjamin-franklin/faq', accessed: '2026-11-18', note: '生年月日と没年月日、学校と印刷所での見習い、コプリ・メダル（1753年）、フランス滞在（1776〜1784年）と署名した文書。' },
-      { title: 'Benjamin Franklin and the Kite Experiment', publisher: 'The Franklin Institute', url: 'https://fi.edu/en/science-and-education/benjamin-franklin/kite-key-experiment', accessed: '2026-11-18', note: '1752年6月の凧の実験の内容、凧に雷は落ちていないこと、約1か月前のダリバールの実験。' },
-      { title: "Franklin's Lightning Rod", publisher: 'The Franklin Institute', url: 'https://fi.edu/en/science-and-education/collection/benjamin-franklin/lightning-rod', accessed: '2026-11-18', note: '1746〜1747年の実験とコリンソンへの手紙、「正」と「負」の呼び方、避雷針の考え（1750年ごろ）。' },
-    ],
+    }
   },
   {
     id: 'volta',
@@ -69,12 +64,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:PSM_V41_D010_Alessandro_Volta.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Alessandro Volta (Biography Index)', publisher: 'Museo Galileo（フィレンツェ）', url: 'https://catalogue.museogalileo.it/biography/AlessandroVolta.html', accessed: '2026-11-18', note: 'コモの貴族の家の出身、パヴィア大学の教授（1778年）、ヨーロッパ旅行（1781〜1783年）、コプリ・メダル（1794年）、ナポレオンとの関わり、引退と没年月日。' },
-      { title: 'This Month in Physics History: March 20, 1800: Volta describes the Electric Battery', publisher: 'APS News（アメリカ物理学会）', url: 'https://www.aps.org/apsnews/2006/03/this-month-in-physics-history', accessed: '2026-11-18', note: '大学に進まなかったこと、電気盆（1775年）とメタン、ガルバーニとの論争、電堆の作り方、1800年3月20日付の手紙、単位ボルト。' },
-      { title: 'Scientist of the Day - Alessandro Volta', publisher: 'Linda Hall Library', url: 'https://www.lindahall.org/about/news/scientist-of-the-day/alessandro-volta/', accessed: '2026-11-18', note: '生年月日、ガルバーニの実験、王立協会への論文と電堆の図。' },
-    ],
+    }
   },
   {
     id: 'young',
@@ -109,11 +99,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Thomas_Young_by_Briggs.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Thomas Young - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Young_Thomas/', accessed: '2026-11-18', note: '生年月日と没年月日、医学の修業、王立協会会員（1794年）、三色説（1801年）、1803年の論文、1807年の講義録とヤング率、ロゼッタ・ストーン、外務担当の書記。' },
-      { title: 'This Month in Physics History: May 1801: Thomas Young’s double slit experiment', publisher: 'APS News 2008年5月号（アメリカ物理学会）', url: 'https://print.aps.org/pdf/2008-05.pdf', accessed: '2026-11-18', note: 'ニュートンの実験の見直し、カードで光を二つに分ける実験、波長の計算、批判を受けたこと、1807年の講義録。' },
-    ],
+    }
   },
   {
     id: 'oersted',
@@ -146,11 +132,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Hans_Christian_%C3%98rsted_daguerreotype.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'The Story of Electromagnetism（News from History of Technology DTU 2018:1）', publisher: 'デンマーク工科大学（DTU）技術史部門', url: 'https://historie.dtu.dk/-/media/subsites/historie/formidling/artikler/1-oerstedelectromagnetism_eng_1_.pdf', accessed: '2026-11-18', note: '1820年の発見の様子、1812年の著書、ロマン主義の自然哲学、パリでの追試とアンペール・ファラデー、生い立ちと経歴、アルミニウム、工業学校と協会、生没年。' },
-      { title: 'Hans Christian Ørsted（DTUs historie – rektorer）', publisher: 'デンマーク工科大学（DTU）', url: 'https://historie.dtu.dk/dtus-historie/rektorer/hanschrorsted', accessed: '2026-11-18', note: '工業学校（1829年設立）の初代校長、薬学の試験と博士号、自然科学を広める協会、デンマーク語の新しい言葉。' },
-    ],
+    }
   },
   {
     id: 'faraday',
@@ -186,12 +168,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Thomas_Phillips_(1770-1845)_-_Michael_Faraday_-_NPG_269_-_National_Portrait_Gallery.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Michael Faraday - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Faraday/', accessed: '2026-11-18', note: '生年月日と没年月日、製本職人の見習い、デービーとの出会い、ヨーロッパ旅行、1821年の電磁回転、1831年の電磁誘導、1845年の発見、マクスウェルとの関係。' },
-      { title: 'Michael Faraday (1791-1867)', publisher: 'The Royal Institution（王立研究所）', url: 'https://www.rigb.org/explore-science/explore/person/michael-faraday-1791-1867', accessed: '2026-11-18', note: '王立研究所での役職、主な発見とその年、クリスマス講演、王立協会会長の辞退、ハンプトン・コートの家。' },
-      { title: "Michael Faraday's ring-coil apparatus", publisher: 'The Royal Institution（王立研究所）', url: 'https://www.rigb.org/explore-science/explore/collection/michael-faradays-ring-coil-apparatus', accessed: '2026-11-18', note: '1831年8月29日の誘導リングの実験。' },
-    ],
+    }
   },
   {
     id: 'maxwell',
@@ -228,11 +205,7 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'James Clerk Maxwell - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Maxwell/', accessed: '2026-11-18', note: '生年月日と没年月日、学歴、「ファラデーの力線について」（1855〜1856年）、土星の環、光の速さの計算、気体分子の研究、キャベンディッシュ研究所、『電気磁気論』（1873年）。' },
-      { title: 'About James Clerk Maxwell', publisher: 'James Clerk Maxwell Foundation', url: 'https://www.clerkmaxwellfoundation.org/html/about_maxwell.html', accessed: '2026-11-18', note: '年譜（アダムズ賞、1861年のカラー写真の実演、1861〜1862年と1864年の論文、1873年の出版、没年月日と死因）。' },
-    ],
+    }
   },
   {
     id: 'hertz',
@@ -266,11 +239,6 @@ export const PEOPLE_EM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Heinrich_Rudolf_Hertz.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Heinrich Hertz - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Hertz_Heinrich/', accessed: '2026-11-18', note: '生年月日と没年月日、学歴と進路の変更、博士論文（1880年）、キールとカールスルーエ、ボンでクラウジウスの後任となったこと、『力学原理』。' },
-      { title: 'Hertz: 125 Years “Propagation of Electric Action”（Press Release 2013）', publisher: 'カールスルーエ工科大学（KIT）', url: 'https://www.kit.edu/kit/english/pi_2013_14276.php', accessed: '2026-11-18', note: '送信機と受信機のしくみ、1886年の観測、波長、1888年12月13日の発表、単位ヘルツ、36歳での死。' },
-      { title: 'Heinrich Hertz Lecture Hall Designated as a “Historic Site”（Press Release 2025）', publisher: 'カールスルーエ工科大学（KIT）', url: 'https://www.kit.edu/kit/english/pi_2025_36297.php', accessed: '2026-11-18', note: 'カールスルーエでの在職期間（1885〜1889年）と1886年11月の実験。' },
-    ],
+    }
   },
 ]

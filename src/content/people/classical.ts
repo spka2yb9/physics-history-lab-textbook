@@ -33,12 +33,7 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Justus_Sustermans_-_Portrait_of_Galileo_Galilei_(Uffizi).jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Galileo Galilei - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Galileo/', accessed: '2026-11-18', note: '生没の年月日と場所、ピサとパドヴァの教授職、1609〜1610年の望遠鏡と観測、1633年の裁判、1992年の教皇の演説。' },
-      { title: 'Galileo Galilei', publisher: 'Museo Galileo（フィレンツェ）', url: 'https://catalogue.museogalileo.it/biography/GalileoGalilei.html', accessed: '2026-11-18', note: '教授職の期間、1632年の『天文対話』、裁判後のアルチェトリでの暮らし、1638年の『新科学対話』の出版とほぼ失明していたこと。' },
-      { title: 'Galileo Galilei', publisher: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/entries/galileo/', accessed: '2026-11-18', note: '振り子と斜面の研究、慣性の考え、『新科学対話』の落下の法則と放物線の軌道。' },
-    ],
+    }
   },
   {
     id: 'kepler',
@@ -72,11 +67,7 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Portrait_of_Johannes_Kepler.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Johannes Kepler - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/', accessed: '2026-11-18', note: '生没の年月日と場所、ティコとの仕事と火星の計算、1604年の目の仕組み、1611年の望遠鏡、1619年の第3法則、1627年の『ルドルフ表』、母の裁判。' },
-      { title: 'Johannes Kepler', publisher: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/entries/kepler/', accessed: '2026-11-18', note: 'グラーツ（1594〜1600年）、プラハ、リンツ（1612年から）での経歴、第1・第2法則が1609年の『新天文学』で発表されたこと。' },
-    ],
+    }
   },
   {
     id: 'newton',
@@ -112,11 +103,7 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:GodfreyKneller-IsaacNewton-1689.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'His Life and Work at a Glance', publisher: 'The Newton Project（オックスフォード大学）', url: 'https://www.newtonproject.ox.ac.uk/his-life-and-work-at-a-glance', accessed: '2026-11-18', note: '生年月日（二つの暦の日付）、ケンブリッジ入学、王立協会会長、『光学』の出版、没年。' },
-      { title: 'Isaac Newton - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Newton/', accessed: '2026-11-18', note: '生い立ち、1669年の教授就任、研究の時期の区分。' },
-    ],
+    }
   },
   {
     id: 'chatelet',
@@ -150,11 +137,7 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Marianne_LOIR,_%22Portrait_de_Gabrielle_Emilie_Le_Tonnelier_de_Breteuil,_Marquise_du_Ch%C3%A2telet.JPG',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Émilie du Châtelet - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Chatelet/', accessed: '2026-11-18', note: '生没の年月日と場所、受けた教育、シレーでの研究、科学アカデミーに女性が出られなかったこと、1737年の懸賞、1740年の『物理学教程』、『プリンキピア』の訳の出版。' },
-      { title: 'Émilie du Châtelet', publisher: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/entries/emilie-du-chatelet/', accessed: '2026-11-18', note: '結婚と子ども、1738年のヴォルテールの解説書への協力、活力をめぐるメランとの論争、訳が1759年に出版され今も代表的なフランス語訳であること。' },
-    ],
+    }
   },
   {
     id: 'lagrange',
@@ -189,11 +172,7 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Joseph_Louis_Lagrange.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Joseph-Louis Lagrange - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/', accessed: '2026-11-18', note: '生没の年月日と場所、1755年の教授就任、1766年のベルリン、1787年のパリ、1788年の『解析力学』、メートル法の委員会、ラヴォアジエのとりなし、1808年の伯爵。' },
-      { title: 'What is a Lagrange Point?', publisher: 'NASA Science', url: 'https://science.nasa.gov/resource/what-is-a-lagrange-point/', accessed: '2026-11-18', note: 'ラグランジュ点の意味と、1772年の三体問題の懸賞論文。' },
-    ],
+    }
   },
   {
     id: 'laplace',
@@ -229,10 +208,6 @@ export const PEOPLE_CLASSICAL: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Pierre-Simon_Laplace.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Pierre-Simon Laplace - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/', accessed: '2026-11-18', note: '生没の年月日と場所、パリに出た経緯、1773年のアカデミー入会、1780年の熱量計、1786年の惑星の軌道の研究、1796年の星雲説、1799年の『天体力学』と内務大臣、1812年と1814年の確率の本、ラプラス方程式が以前から知られていたこと。' },
-      { title: 'Causal Determinism', publisher: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/entries/determinism-causal/', accessed: '2026-11-18', note: 'すべての力と位置を知る「知性」についてのラプラスの文章（英訳）。' },
-    ],
+    }
   },
 ]

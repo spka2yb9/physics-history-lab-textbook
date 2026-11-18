@@ -35,12 +35,7 @@ export const PEOPLE_RELATIVITY: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Albert_Abraham_Michelson,_1852-1931_LCCN2004678722.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Albert A. Michelson – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1907/michelson/biographical/', accessed: '2026-11-18', note: '生没年、海軍兵学校、ケース応用科学校とシカゴ大学、干渉計、メートルの測定、ベテルギウスの直径。受賞理由と没地は同サイトの Facts のページで確認。' },
-      { title: 'Albert Michelson: A Virtual Tour of a Life in Science', publisher: 'Nimitz Library（アメリカ海軍兵学校）', url: 'https://www.usna.edu/Library/sca/ve-collections/michelson/index.php', accessed: '2026-11-18', note: '1875〜1879年の兵学校での教職、1877年の授業での光の速さの実験、アメリカの科学者で初めてのノーベル賞。' },
-      { title: 'Special relativity', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/HistTopics/Special_relativity/', accessed: '2026-11-18', note: '1881年の実験と1887年のモーリーとの実験、それを受けたフィッツジェラルドとローレンツの収縮の考え。' },
-    ],
+    }
   },
   {
     id: 'lorentz',
@@ -77,12 +72,7 @@ export const PEOPLE_RELATIVITY: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Hendrik_Antoon_Lorentz,_in_1916_geschilderd_door_Menso_Kamelingh_Onnes.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Hendrik A. Lorentz – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1902/lorentz/biographical/', accessed: '2026-11-18', note: '生没年、ライデン大学、夜間学校の教師、博士論文、電子論、1904年のローレンツ変換、テイラー財団、ソルベー会議。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Hendrik Antoon Lorentz - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Lorentz/', accessed: '2026-11-18', note: 'ゼーマンとの共同受賞、1911年の第1回ソルベー会議の議長、1912年の退職、葬儀の様子。' },
-      { title: 'Special relativity', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/HistTopics/Special_relativity/', accessed: '2026-11-18', note: '1892年の収縮の考えとフィッツジェラルドとの関係、1899年の変換の式、1913年の講演でのエーテルについての考え。' },
-    ],
+    }
   },
   {
     id: 'poincare',
@@ -116,11 +106,7 @@ export const PEOPLE_RELATIVITY: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Henri-Poincar%C3%A9.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Henri Poincaré - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/', accessed: '2026-11-18', note: '生没年、学歴、パリ大学の教授職、三体問題の懸賞と論文の誤り、位相幾何学、科学アカデミー、亡くなったときの様子。' },
-      { title: 'Special relativity', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/HistTopics/Special_relativity/', accessed: '2026-11-18', note: '1898年の「時間の測定」、1904年のセントルイスの講演、1905年6月5日の論文、ローレンツ変換の命名と群の性質。' },
-    ],
+    }
   },
   {
     id: 'einstein',
@@ -158,13 +144,7 @@ export const PEOPLE_RELATIVITY: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Albert_Einstein_Head_(cropped).jpg',
       license: 'パブリックドメイン（アメリカで著作権が更新されなかった写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Albert Einstein – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/', accessed: '2026-11-18', note: '生没年、学歴、特許局、ベルリンとプリンストン、ブラウン運動と光量子、一般相対性理論、統一場理論。受賞理由と授与の年は同サイトの Facts のページで確認。' },
-      { title: 'Albert Einstein - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/', accessed: '2026-11-18', note: '特許局の勤務期間、1905年の論文、1915年の一般相対性理論、1919年の日食観測、1932年12月の出国、1940年のアメリカ国籍。' },
-      { title: 'Albert Einstein in Brief / The Nuclear Age', publisher: 'American Institute of Physics（Center for History of Physics）', url: 'https://history.aip.org/exhibits/einstein/inbrief.htm', accessed: '2026-11-18', note: '1905年の4本の論文の内容、1929年の統一場理論、1933年のプリンストン高等研究所、1939年の手紙と原爆開発に加わらなかったこと（同展示の nuclear1.htm）。' },
-      { title: "Einstein's Letter, 1939", publisher: 'アメリカ・エネルギー省（OSTI, The Manhattan Project: An Interactive History）', url: 'https://www.osti.gov/opennet/manhattan-project-history/Events/1939-1942/einstein_letter.htm', accessed: '2026-11-18', note: 'シラードの協力で手紙をまとめたこと、8月の日付、10月11日にザックスがローズベルト大統領に伝えたこと。' },
-    ],
+    }
   },
   {
     id: 'eddington',
@@ -197,10 +177,6 @@ export const PEOPLE_RELATIVITY: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Prof._Arthur_S._Eddington_LCCN2014718210.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Arthur Stanley Eddington - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Eddington/', accessed: '2026-11-18', note: '生没年、学歴、1904年の首席、グリニッジ天文台、1913年の教授就任、良心的兵役拒否、1919年のプリンシペ島の観測、1923年と1926年の著書、1930年のナイト。' },
-      { title: 'Eddington, Arthur Stanley（Biographical Encyclopedia of Astronomers, Springer, 2007）', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）に掲載', url: 'https://mathshistory.st-andrews.ac.uk/BEA/eddington_bea.pdf', accessed: '2026-11-18', note: 'ドイツの科学者との交流の主張、ド・ジッターからの論文、ダイソンとの観測隊の計画、データ操作の疑いに証拠がないこと、星のエネルギー源についての考え。' },
-    ],
+    }
   },
 ]

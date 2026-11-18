@@ -35,11 +35,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Richard_Feynman_1959.png',
       license: 'パブリックドメイン（アメリカで著作権表示なしに出版された写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Richard P. Feynman – Facts / Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1965/feynman/facts/', accessed: '2026-11-18', note: '生没の年月日と場所、MIT・プリンストン・コーネル・カルテックの経歴、受賞理由、1948年にファインマン図を取り入れたこと。' },
-      { title: 'Richard Feynman - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Feynman/', accessed: '2026-11-18', note: 'ディラックの教科書の影響、ホイーラーの指導と最小作用の原理による研究、1942年の博士号、ロスアラモスでの仕事、パートンの研究、『ファインマン物理学』、1979年の手術、チャレンジャー号の調査。この資料はロスアラモスで「理論部門の長」になったと書くが、ほかの資料で確かめられなかったので本文では役職を書いていない。' },
-    ],
+    }
   },
   {
     id: 'noether',
@@ -75,12 +71,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Noether.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Emmy Noether - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/', accessed: '2026-11-18', note: '生没の年月日と場所、聴講と1904年の入学、1907年の博士号、1915年のゲッティンゲンへの招き、保存則の定理、教授資格が女性に開かれていなかったことと1919年の取得、ヒルベルトの名前での講義、1921年の論文、1933年の解雇とブリンマー大学、1935年の死去。' },
-      { title: 'Emmy Noether (1882 to 1935)', publisher: 'ゲッティンゲン大学', url: 'https://www.uni-goettingen.de/en/emmy+noether+(1882+to+1935)/74993.html', accessed: '2026-11-18', note: '1915年に相対性理論の問題のために招かれたこと、最初の教授資格の申請が規則のために認められなかったこと、1919年の取得、1933年に職を失いアメリカへ移ったこと。' },
-      { title: 'Invariant Variation Problems（1918年の論文の英訳、M. A. Tavel 訳）', publisher: 'arXiv', url: 'https://arxiv.org/abs/physics/0503066', accessed: '2026-11-18', note: 'ネーターの定理の原論文（ゲッティンゲン王立学会報告、1918年）の英訳。変分法とリーの群論を組み合わせた内容であること。' },
-    ],
+    }
   },
   {
     id: 'wu',
@@ -116,12 +107,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       license: 'CC BY-SA 4.0',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/4.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Reversal of the Parity Conservation Law in Nuclear Physics（NIST SP 958「A Century of Excellence in Measurements, Standards, and Technology」の一章）', publisher: 'アメリカ国立標準技術研究所（NIST）', url: 'https://nvlpubs.nist.gov/nistpubs/sp958-lide/111-115.pdf', accessed: '2026-11-18', note: '1956年の終わりに国立標準局で行われたコバルト60の実験、共同研究者（アンブラー、ヘイワード、ホップス、ハドソン）、李と楊の提案、電子が自転と反対の向きに多く出たこと、1957年の論文、1975年の米国物理学会会長と1978年のウルフ賞、1997年の死去。' },
-      { title: 'Chien-Shiung Wu', publisher: 'Atomic Heritage Foundation（National Museum of Nuclear Science & History）', url: 'https://ahf.nuclearmuseum.org/ahf/profile/chien-shiung-wu/', accessed: '2026-11-18', note: '1912年5月31日に太倉で生まれたこと、父の学校、1936年の渡米と1940年の博士号、研究職が見つからなかったこと、1944〜1945年のマンハッタン計画、フェルミのベータ崩壊理論の確認、ノーベル賞が李と楊に贈られたこと、1965年の著書、1997年2月16日の死去。' },
-      { title: 'The Nobel Prize in Physics 1957', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1957/summary/', accessed: '2026-11-18', note: '1957年の物理学賞が楊振寧と李政道の2人に贈られたこと（各2分の1）と受賞理由。' },
-    ],
+    }
   },
   {
     id: 'nambu',
@@ -157,11 +143,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       license: 'CC BY-SA 3.0',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Yoichiro Nambu – Facts / Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/2008/nambu/biographical/', accessed: '2026-11-18', note: '本人の書いた経歴。東京での誕生と福井での生育、東京帝国大学（1940〜1942年）、陸軍のレーダーの研究所、朝永のグループ、大阪市立大学・プリンストン・シカゴの経歴、1970年からアメリカ市民であること、BCS理論から自発的対称性の破れを考え1960年に発表したこと、1991年の退職。受賞理由と2015年7月5日の死去は同じサイトの Facts のページ。' },
-      { title: 'Yoichiro Nambu, Nobel-winning theoretical physicist, 1921-2015', publisher: 'シカゴ大学', url: 'https://news.uchicago.edu/story/yoichiro-nambu-nobel-winning-theoretical-physicist-1921-2015', accessed: '2026-11-18', note: '大阪での死去、ジョナ＝ラシニオとの共同研究、1965年のハン・ムーヨンとの理論、ひも理論、1970年の市民権。この資料は学生時代に湯川秀樹に教わったと書くが、本人の経歴では朝永のグループで学んだとあるので本文は本人の経歴に従った。物理学科長の任期も本人の経歴（1973〜1976年）と1年ずれている。' },
-    ],
+    }
   },
   {
     id: 'gellmann',
@@ -197,12 +179,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Murray_Gell-Mann_1965.png',
       license: 'パブリックドメイン（アメリカで著作権表示なしに出版された写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Murray Gell-Mann – Facts / Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1969/gell-mann/biographical/', accessed: '2026-11-18', note: '生没の年月日と場所、イェールとMITの学位、シカゴ大学での経歴、1956年から弱い相互作用の理論に取り組んだこと、受賞理由（Facts のページ）。' },
-      { title: 'Award ceremony speech（1969年の授賞式の演説）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1969/ceremony-speech/', accessed: '2026-11-18', note: '1953年のストレンジネス、中野と西島が数か月遅れて同様の分類を出したこと、湯川が予言したパイ中間子、1961年の八道説、1962年のオメガ・マイナスの予言、クォークの考え。' },
-      { title: 'Caltech Mourns the Passing of Murray Gell-Mann', publisher: 'カリフォルニア工科大学', url: 'https://physics.caltech.edu/news/caltech-mourns-passing-murray-gell-mann', accessed: '2026-11-18', note: '両親の出身、飛び級、1955年のカルテック着任と1993年の退職、八道説の名前の由来、ネーマンとツワイク、クォークの電荷、1984年のサンタフェ研究所、1994年の著書、2019年5月24日の死去。' },
-    ],
+    }
   },
   {
     id: 'higgs',
@@ -237,12 +214,7 @@ export const PEOPLE_PARTICLE2: Person[] = [
       license: 'CC BY 2.0',
       licenseUrl: 'https://creativecommons.org/licenses/by/2.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Peter Higgs – Facts / Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/2013/higgs/biographical/', accessed: '2026-11-18', note: '生年月日と場所、父の仕事とぜんそく、キングス・カレッジの学位と1954年の博士論文、対称性への関心の始まり、エディンバラ大学の経歴と1996年の退職、1964年の論文、受賞理由とアングレールとの共同受賞（Facts のページ）、2024年4月8日の死去。' },
-      { title: 'Obituary: Pioneering scientist Professor Peter Higgs dies aged 94', publisher: 'エディンバラ大学', url: 'https://www.ed.ac.uk/news/2024/pioneering-scientist-professor-peter-higgs-dies-ag', accessed: '2026-11-18', note: '1964年の予言、2012年のCERNでの確認、2013年のノーベル賞、1960年の着任と1996年の退職、4月8日に自宅で亡くなったこと。' },
-      { title: 'CERN pays tribute to Peter Higgs', publisher: 'CERN', url: 'https://home.cern/news/news/cern/cern-pays-tribute-peter-higgs', accessed: '2026-11-18', note: '1964年にブラウト、アングレールとともに場の存在を考えたこと、その場の粒子を最初に指摘したのがヒッグスであること、2012年のATLASとCMSによる発見。' },
-    ],
+    }
   },
   {
     id: 'koshiba',
@@ -277,12 +249,6 @@ export const PEOPLE_PARTICLE2: Person[] = [
       license: 'CC BY 4.0（政府標準利用規約 第2.0版）',
       licenseUrl: 'https://creativecommons.org/licenses/by/4.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Masatoshi Koshiba – Facts / Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/2002/koshiba/biographical/', accessed: '2026-11-18', note: '本人の履歴書。生年月日と場所、東京大学卒業、ロチェスター大学の博士号、シカゴ大学、東京大学の助教授・教授と1987年3月までの在職、超新星1987Aと太陽ニュートリノの論文（1987年・1990年）。受賞理由と2020年11月12日の死去は Facts のページ。' },
-      { title: 'Press release: The Nobel Prize in Physics 2002', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/2002/press-release/', accessed: '2026-11-18', note: 'デイヴィスと賞の半分を分け合ったこと、パウリが1930年にニュートリノを予言したこと、1987年2月23日に超新星のニュートリノをとらえたこと。この発表はとらえた数を12個とするが、ほかの資料では11個とされることが多いので本文では数を書いていない。' },
-      { title: '追悼 小柴昌俊 東京大学特別栄誉教授（理学部ニュース 第52巻第5号）', publisher: '東京大学大学院理学系研究科・理学部', url: 'https://repository.dl.itc.u-tokyo.ac.jp/record/54985/files/rgn52_5_5.pdf', accessed: '2026-11-18', note: '1983年のカミオカンデの稼働、DESYでの国際共同実験、陽子崩壊を目的に1970年代の終わりに考えたこと、50センチメートルの光電子増倍管、太陽ニュートリノへの方針転換、平成基礎科学財団。' },
-      { title: '「あの研究の誕生秘話」特別編 小柴先生が追いかけた物理の夢', publisher: '日本物理学会誌 第76巻第11号（2021年）', url: 'https://www.jps.or.jp/books/gakkaishi/2021/11/76-11_688Special%20Episodes0.pdf', accessed: '2026-11-18', note: '2020年11月12日の死去、1987年の超新星ニュートリノの観測とニュートリノ天文学、スーパーカミオカンデがニュートリノの質量を突き止めたこと。' },
-    ],
+    }
   },
 ]

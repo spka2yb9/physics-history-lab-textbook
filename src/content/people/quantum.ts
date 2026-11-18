@@ -36,12 +36,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Max_Planck_(Nobel_1918).jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Max Planck – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1918/planck/biographical/', accessed: '2026-11-18', note: '生没の年月日と場所、学歴と教授職、クラウジウスの影響、1900年の量子の考え、ナチス時代の立場、息子がヒトラー暗殺計画に関わって処刑されたこと。受賞理由と授与が1919年だったことは同サイトの Facts のページで確認。' },
-      { title: 'Max Planck - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Planck/', accessed: '2026-11-18', note: '1900年10月の放射公式と12月14日の発表、ボルツマンの確率の考えを使ったこと、カイザー・ヴィルヘルム協会の会長（1930〜1937年）、子どもたちの死、1944年の空襲。' },
-      { title: 'Max Planck 1858-1947', publisher: 'LeMO（ドイツ歴史博物館）', url: 'https://www.dhm.de/lemo/biografie/max-planck', accessed: '2026-11-18', note: '1935年のハーバーの追悼式、息子エルヴィンの逮捕と1945年1月の処刑、戦後のゲッティンゲンへの移住、マックス・プランク協会。' },
-    ],
+    }
   },
   {
     id: 'rutherford',
@@ -74,12 +69,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Sir_Ernest_Rutherford_LCCN2014716719_-_restoration1.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Ernest Rutherford – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/chemistry/1908/rutherford/biographical/', accessed: '2026-11-18', note: '生没の年月日と場所、学歴、マギル・マンチェスター・ケンブリッジでの職、1898年のアルファ線とベータ線、ソディとの説、原子核、1919年の実験、ウェストミンスター寺院への埋葬。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Rutherford\'s Nuclear World: Alpha Particles and the Atom', publisher: 'American Institute of Physics', url: 'https://history.aip.org/exhibits/rutherford/sections/alpha-particles-atom.html', accessed: '2026-11-18', note: 'ガイガーとマースデンの実験（1909年の論文）と、1911年5月の原子核の論文。長岡半太郎の土星型模型にもふれていること。' },
-      { title: 'Rutherford\'s Nuclear World: Atop the Physics Wave', publisher: 'American Institute of Physics', url: 'https://history.aip.org/exhibits/rutherford/sections/atop-physics-wave.html', accessed: '2026-11-18', note: '1919年からのキャヴェンディッシュ研究所の所長職、1919年の実験で主張したのは陽子が飛び出すことまでだったこと、1933年の学術支援評議会の会長。' },
-    ],
+    }
   },
   {
     id: 'nagaoka',
@@ -110,13 +100,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Hantaro_Nagaoka.jpg',
       license: 'パブリックドメイン（日本で著作権の保護期間が終わった古い写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: '数物学会誌の紹介 第2回 数物学会誌と長岡半太郎', publisher: 'J-STAGE Journal@rchive Stories（佐宗哲郎）', url: 'https://www.jstage.jst.go.jp/static/pages/Journal@rchiveStories/Physics/01-02/-char/ja', accessed: '2026-11-18', note: '生没年、1893〜1896年の留学とボルツマン、1903年12月5日の講演と1904年の論文、ヨーロッパの雑誌への発表、のちに置きかわったこと、大阪の初代総長、ノーベル賞の推薦。' },
-      { title: '長岡 半太郎（ながおか はんたろう）', publisher: '大村市歴史資料館（長崎県大村市）', url: 'https://www.city.omura.nagasaki.jp/rekishi/kyoiku/miraion/rekishi/senjin/nagaoka-hantaro.html', accessed: '2026-11-18', note: '大村の出身、帝国大学と大学院、ベルリン大学への留学、磁気学・地球物理学・原子構造論の研究、最初の文化勲章。' },
-      { title: '歴代会長・院長', publisher: '日本学士院', url: 'https://www.japan-acad.go.jp/japanese/about/successive.html', accessed: '2026-11-18', note: '第13代院長として1939年3月から1948年6月まで在任。' },
-      { title: 'Rutherford\'s Nuclear World: Alpha Particles and the Atom', publisher: 'American Institute of Physics', url: 'https://history.aip.org/exhibits/rutherford/sections/alpha-particles-atom.html', accessed: '2026-11-18', note: 'ラザフォードが長岡の土星型模型を検討し、1910〜1911年に二人が連絡を取り合っていたこと。' },
-    ],
+    }
   },
   {
     id: 'bohr',
@@ -153,12 +137,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Niels_Bohr.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Niels Bohr – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1922/bohr/biographical/', accessed: '2026-11-18', note: '生没年、学歴、ケンブリッジとマンチェスター、1913年の原子模型、1920年からの研究所の所長、1936年の液滴の考え、スウェーデンへの脱出とアメリカの原子力計画、1950年の国連への公開書簡。' },
-      { title: 'Niels Bohr - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Bohr_Niels/', accessed: '2026-11-18', note: '生没の年月日、1911年の博士号、1912年のマンチェスター、1927年9月のコモでの相補性、母方がユダヤ系で1943年に漁船でスウェーデンへ逃れたこと、ロスアラモス。' },
-      { title: 'Release of documents relating to 1941 Bohr-Heisenberg meeting', publisher: 'Niels Bohr Archive', url: 'https://nbarchive.ku.dk/collections/bohr-heisenberg/', accessed: '2026-11-18', note: '1941年9月の会談についてボーアが残した手紙の下書きなど11点を、家族の判断で2002年に公開したこと。どれも16年以上後に書かれたものだという注意（同じページの Introduction）。' },
-    ],
+    }
   },
   {
     id: 'debroglie',
@@ -193,11 +172,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Louis_de_Broglie.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Louis de Broglie – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1929/broglie/biographical/', accessed: '2026-11-18', note: '生年月日と場所、歴史と理学の学位、エッフェル塔の無線部隊、兄モーリス、1924年の博士論文、1927年の電子の回折、アンリ・ポアンカレ研究所とパリ大学、終身書記、カリンガ賞、没年月日。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Louis de Broglie - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Broglie/', accessed: '2026-11-18', note: '1923年の夏に物質の粒子にも波と粒子の二つの性質を広げる考えを得たこと、アインシュタインとプランクの研究をもとにしたこと、1927年のデヴィソンらとG・P・トムソンの実験。' },
-    ],
+    }
   },
   {
     id: 'heisenberg',
@@ -233,13 +208,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       license: 'CC BY-SA 3.0 DE',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0/de/deed.en',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Werner Heisenberg – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1932/heisenberg/biographical/', accessed: '2026-11-18', note: '生年月日と場所、ミュンヘン・ゲッティンゲン・コペンハーゲンでの研究、1925年の量子力学と行列、不確定性関係、1927年のライプツィヒの教授、戦後のイギリスでの拘束とゲッティンゲンの研究所。没年月日と授与が1933年だったことは同サイトの Facts のページで確認。' },
-      { title: 'Heisenberg: A Brief Chronology', publisher: 'American Institute of Physics', url: 'https://history.aip.org/exhibits/heisenberg/brief-chronology.html', accessed: '2026-11-18', note: '1925年と1927年の論文、1932年の原子核の論文、1937年の親衛隊の新聞の攻撃、1939年9月の核分裂の研究への参加、1941年9月のコペンハーゲン訪問、1942年7月のベルリンの研究所、ファーム・ホール、1957年の声明、1976年2月1日の死去。' },
-      { title: 'Heisenberg: Fission Research 1939-1945', publisher: 'American Institute of Physics', url: 'https://history.aip.org/exhibits/heisenberg/fission-research.html', accessed: '2026-11-18', note: '陸軍兵器局の下での核分裂の研究、ハイゼンベルクの役割とその理由について研究者の見方が分かれていること、ファーム・ホールでの6か月の拘束。' },
-      { title: 'Release of documents relating to 1941 Bohr-Heisenberg meeting', publisher: 'Niels Bohr Archive', url: 'https://nbarchive.ku.dk/collections/bohr-heisenberg/', accessed: '2026-11-18', note: '1941年9月の会談の内容が議論になっていること、ボーアが残した下書きは会談から16年以上後に書かれたこと。' },
-    ],
+    }
   },
   {
     id: 'schrodinger',
@@ -274,11 +243,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Erwin_Schr%C3%B6dinger_(1933).jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Erwin Schrödinger – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1933/schrodinger/biographical/', accessed: '2026-11-18', note: '生年月日と場所、ウィーン大学とハーゼンエール、砲兵の将校、チューリッヒの6年間、1926年前半の波動方程式、1927年のベルリン、1933年以降のオックスフォード・グラーツ・ダブリン、没年月日。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Erwin Schrödinger - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Schrodinger/', accessed: '2026-11-18', note: 'ド・ブロイの論文を読んだこと、1926年の6本の論文、1935年の猫の思考実験、1939年秋のダブリン、1944年の『生命とは何か』、引退後のウィーン。' },
-    ],
+    }
   },
   {
     id: 'born',
@@ -314,12 +279,7 @@ export const PEOPLE_QUANTUM: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Max_Born_1954.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Max Born – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1954/born/biographical/', accessed: '2026-11-18', note: '生年月日と場所、学んだ大学と教師、1907年の博士号、戦時中の研究と結晶の本、1921年のゲッティンゲン、共に研究した人々、1925〜1926年の行列力学と確率の解釈、1933年の亡命、バンガロールとエディンバラ、没年月日。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Max Born - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Born/', accessed: '2026-11-18', note: 'ユダヤ系の家に生まれたこと、ハイゼンベルクの方法が行列の計算だと気づいたこと、1953年の引退とバート・ピルモント、没地。' },
-      { title: 'Max Born, physics (1882 to 1970)', publisher: 'ゲッティンゲン大学', url: 'https://www.uni-goettingen.de/en/62603.html', accessed: '2026-11-18', note: '1921年の教授就任、1933年の亡命、1957年のゲッティンゲン宣言への署名。' },
-    ],
+    }
   },
   {
     id: 'pauli',
@@ -354,11 +314,6 @@ export const PEOPLE_QUANTUM: Person[] = [
       license: 'CC BY-SA 3.0',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/3.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Wolfgang Pauli – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1945/pauli/biographical/', accessed: '2026-11-18', note: '生年月日と場所、ゾンマーフェルト・ボルン・ボーアのもとでの研究、ハンブルクとチューリッヒ、相対性理論の総説、排他原理、ニュートリノ、スピンと統計の関係の証明、没年月日と場所。受賞理由は同サイトの Facts のページで確認。' },
-      { title: 'Wolfgang Pauli (1900 - 1958) biography', publisher: 'CERN Archives（Pauli Archive）', url: 'https://library.cern/archives/Pauli_archive/biography', accessed: '2026-11-18', note: '1928年4月のチューリッヒ連邦工科大学の教授就任、1930年12月のニュートリノの手紙と1956年の検出、1940年7月のアメリカ行き、1946年のチューリッヒへの帰還。' },
-      { title: 'Wolfgang Pauli - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Pauli/', accessed: '2026-11-18', note: '1921年7月の博士号と2か月後の相対性理論の総説、1925年の排他原理、フェルミによるニュートリノの命名、オーストリア併合でドイツ国籍とされたこと。' },
-    ],
+    }
   },
 ]

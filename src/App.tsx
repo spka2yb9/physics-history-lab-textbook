@@ -1,7 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import { ChapterView } from './components/ChapterView'
 import { Home } from './components/Home'
-import { SourcesPage } from './components/SourcesPage'
 import { SearchDialog } from './components/Search'
 import { MapPage } from './components/MapPage'
 import { FieldsPage } from './components/FieldsPage'
@@ -209,16 +208,6 @@ export default function App() {
               </ol>
             </li>
           ))}
-          <li>
-            <ol className="nav-chapters">
-              <li>
-                <a href="#/sources" aria-current={route.sources ? 'page' : undefined}>
-                  <span className="nav-num">文</span>
-                  参考資料の一覧
-                </a>
-              </li>
-            </ol>
-          </li>
         </ol>
       </nav>
       <div className="sidebar-backdrop" onClick={() => setNavOpenAt(null)} />
@@ -243,9 +232,7 @@ export default function App() {
       )}
 
       <footer className="site-footer">
-        <p>
-          物理学の歴史ラボ ／ <a href="#/sources">参考資料の一覧</a>
-        </p>
+        <p>物理学の歴史ラボ</p>
       </footer>
 
       <SearchDialog open={searchOpen} onClose={() => setSearchOpen(false)} />
@@ -265,8 +252,6 @@ function PageBody({ route, chapter, restoreY }: { route: ReturnType<typeof useRo
       return <PeoplePage restoreY={restoreY} />
     case 'person':
       return <PersonPage id={route.id!} />
-    case 'sources':
-      return <SourcesPage />
     case 'chapter':
       return chapter ? (
         <ChapterView chapter={chapter} section={route.section} restoreY={restoreY} />

@@ -33,13 +33,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Marie_Curie_c1920.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Marie Curie – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1903/marie-curie/biographical/', accessed: '2026-11-18', note: '生年月日と場所、1891年のパリ移住、1895年の結婚、1906年の教授就任（女性で初めて）、ラジウム研究所、第一次世界大戦中の活動、1903年と1911年の受賞、1934年の死去（サヴォワ）。' },
-      { title: 'Marie Curie – Facts（Nobel Prize in Chemistry 1911）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/', accessed: '2026-11-18', note: '化学賞の受賞理由、1910年に純粋な金属のラジウムを取り出したこと、2度ノーベル賞を受けた最初の人であること、没地（サランシュ）。' },
-      { title: 'Marie Curie and the Science of Radioactivity: Research Breakthroughs (1897-1904)', publisher: 'American Institute of Physics（Center for History of Physics）', url: 'https://history.aip.org/exhibits/curie/resbr1.htm', accessed: '2026-11-18', note: 'ピエールと兄ジャックの電気計、放射線が原子の性質だという考え、1898年4月のトリウムの発見と「放射能」という語。1898年7月のポロニウムと12月のラジウムの発表は同展示の resbr2.htm で確認。' },
-      { title: 'Marie Curie and the Science of Radioactivity: Tragedy and Adjustment / War Duty / The Radium Institute', publisher: 'American Institute of Physics（Center for History of Physics）', url: 'https://history.aip.org/exhibits/curie/trag1.htm', accessed: '2026-11-18', note: '1906年4月19日にピエールが荷馬車にひかれて亡くなったこと。前線へX線装置を運んだ車（war1.htm）、放射線で骨髄が傷ついたとみられる貧血による死去（radinst3.htm）。' },
-    ],
+    }
   },
   {
     id: 'meitner',
@@ -76,13 +70,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       license: 'CC BY-SA 2.0',
       licenseUrl: 'https://creativecommons.org/licenses/by-sa/2.0',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'December 1938: Discovery of Nuclear Fission（This Month in Physics History）', publisher: 'American Physical Society（APS News, 2007年12月）', url: 'https://www.aps.org/publications/apsnews/200712/physicshistory.cfm', accessed: '2026-11-18', note: '1906年の博士号と1907年のベルリン移住、フェルミの実験を受けたハーン、シュトラスマンとのウランの研究、1938年7月の脱出、12月のハーンの手紙とフリッシュとの解釈、エネルギーの計算、原爆開発に加わらなかったこと、1944年の化学賞。' },
-      { title: 'Lise Meitner（650 plus – Geschichte der Universität Wien）', publisher: 'ウィーン大学', url: 'https://geschichte.univie.ac.at/de/personen/lise-meitner', accessed: '2026-11-18', note: '1901年の入学、1912年のプランクの助手、1913年の研究所、1917年からの物理部門、1918年のプロトアクチニウム、1922年のオージェ効果、1933年の教える資格の剥奪、1997年のマイトネリウム、没年月日と場所。生年月日は同じサイトで11月7日と11月17日の両方が書かれている。' },
-      { title: 'Lise Meitner', publisher: 'Atomic Heritage Foundation（National Museum of Nuclear Science & History）', url: 'https://ahf.nuclearmuseum.org/ahf/profile/lise-meitner/', accessed: '2026-11-18', note: 'オーストリア国籍のためドイツに長くとどまれたこと、オランダ国境を越えた脱出、1926年の教授就任（ドイツで女性初）、1966年のフェルミ賞、マンハッタン計画への参加を断ったこと。' },
-      { title: 'Otto Hahn – Facts（Nobel Prize in Chemistry 1944）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/chemistry/1944/hahn/facts/', accessed: '2026-11-18', note: '1944年の化学賞が重い原子核の分裂の発見によりハーン1人に贈られたこと（授与は1945年）、マイトナーとフリッシュが理論の面から原子核が分かれたことを示したこと。' },
-    ],
+    }
   },
   {
     id: 'fermi',
@@ -118,12 +106,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Enrico_Fermi_1943-49.jpg',
       license: 'パブリックドメイン（アメリカ政府の職員が職務で撮影した写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Enrico Fermi – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1938/fermi/biographical/', accessed: '2026-11-18', note: '生没の年月日と場所、ピサでの学位（1922年）、ゲッティンゲンとライデン、1927年のローマ大学教授、1926年の統計、1934年のβ崩壊の理論（放射の理論とパウリのニュートリノを合わせたもの）、遅い中性子、1942年12月2日の連鎖反応、1944年の市民権、戦後のシカゴ大学。' },
-      { title: 'Enrico Fermi – Facts', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1938/fermi/facts/', accessed: '2026-11-18', note: '受賞理由と、パラフィンなどで中性子の速さを落とすと原子核との反応が増えるという1934年の発見。' },
-      { title: 'Enrico Fermi - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Fermi/', accessed: '2026-11-18', note: '1938年の反ユダヤ政策と妻ラウラ、授賞式からそのままアメリカへ移ったこと、ロスアラモスでの仕事、胃がんによる死去。統計の論文の年を1935年としているが、ノーベル財団の経歴（1926年）を採った。' },
-    ],
+    }
   },
   {
     id: 'oppenheimer',
@@ -159,13 +142,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Oppenheimer_(cropped).jpg',
       license: 'パブリックドメイン（アメリカ政府の職員が職務で撮影した写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'J. Robert Oppenheimer', publisher: 'Atomic Heritage Foundation（National Museum of Nuclear Science & History）', url: 'https://ahf.nuclearmuseum.org/ahf/profile/j-robert-oppenheimer/', accessed: '2026-11-18', note: '生没の年月日と場所、ハーバード、ケンブリッジ、ゲッティンゲンでの学び、1927年の博士号、1942年10月の所長への指名、1943〜1945年の所長職、1945年7月16日のトリニティ実験、1947年の高等研究所、水爆への反対、1954年6月29日の保安許可の取り消し、1963年のフェルミ賞。広島と長崎への投下の日付は同館の Bombings of Hiroshima and Nagasaki - 1945 のページで確認。' },
-      { title: 'Oppenheimer Security Hearing', publisher: 'Atomic Heritage Foundation（National Museum of Nuclear Science & History）', url: 'https://ahf.nuclearmuseum.org/ahf/history/oppenheimer-security-hearing/', accessed: '2026-11-18', note: '1953年12月の保安許可の停止、1954年4月12日に始まった聴聞会、共産党関係者との交友と水爆への反対が問われたこと。' },
-      { title: 'Landmarks: Forgotten Black Hole Birth（Phys. Rev. Focus 13, 23）', publisher: 'American Physical Society（Physics）', url: 'https://physics.aps.org/story/v13/st23', accessed: '2026-11-18', note: '1939年のスナイダーとの論文が星の崩壊を示し、1960年代まで注目されなかったこと、のちにホイーラーがブラックホールと名づけたこと。原論文（Phys. Rev. 56, 455、1939年9月1日発行）の要旨も APS のページで確認。' },
-      { title: 'Secretary Granholm Statement on DOE Order Vacating 1954 Atomic Energy Commission Decision In the Matter of J. Robert Oppenheimer', publisher: 'アメリカ・エネルギー省', url: 'https://www.energy.gov/articles/secretary-granholm-statement-doe-order-vacating-1954-atomic-energy-commission-decision', accessed: '2026-11-18', note: '2022年12月16日、1954年の原子力委員会の決定が委員会自身の規則に反する欠陥のある手続きで行われたとして取り消したこと、1963年のフェルミ賞。' },
-    ],
+    }
   },
   {
     id: 'dirac',
@@ -203,12 +180,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Paul_Dirac,_1933_(cropped).jpg',
       license: 'パブリックドメイン（作者名のない、公表から70年以上たった写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Paul A.M. Dirac – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1933/dirac/biographical/', accessed: '2026-11-18', note: '生年月日と場所、両親、電気工学の学位（1921年）、1926年の博士号、1932年のルーカス教授職、1928年の電子の相対論的な理論、1930年の空孔の理論と1932年のアンダーソンによる陽電子の発見、1930年の『量子力学の原理』。受賞理由と没年月日・場所は同サイトの Facts のページで確認。' },
-      { title: 'Paul Dirac - Biography', publisher: 'MacTutor History of Mathematics（セント・アンドルーズ大学）', url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Dirac/', accessed: '2026-11-18', note: '就職できずに数学を学び直したこと、ファウラーの指導、1925年にハイゼンベルクの論文から古典力学との対応に気づいたこと、1928年のスピン1/2の方程式、1969年の退職とフロリダ州立大学（1971年）、口数の少なさについての逸話。' },
-      { title: 'Award ceremony speech（Nobel Prize in Physics 1965）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1965/ceremony-speech/', accessed: '2026-11-18', note: '1920年代の終わりに、ディラック、ハイゼンベルク、パウリが電磁場にも量子力学を当てはめて量子電磁力学をつくったこと。' },
-    ],
+    }
   },
   {
     id: 'yukawa',
@@ -244,13 +216,7 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Hideki_Yukawa_1949.jpg',
       license: 'パブリックドメイン（日本で1956年までに撮影された写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Hideki Yukawa – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1949/yukawa/biographical/', accessed: '2026-11-18', note: '生年月日と場所、父の小川琢治、京都での成長、1929年の卒業、京都大学と大阪大学での職、1935年の論文と中間子の予言、1946年からの学術誌の編集、1949年のコロンビア大学。受賞理由、1934年の予言、没年月日と場所は同サイトの Facts のページで確認。' },
-      { title: 'Award ceremony speech（Nobel Prize in Physics 1949）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1949/ceremony-speech/', accessed: '2026-11-18', note: 'ハイゼンベルクらの原子核の研究とフェルミの理論をもとにしたこと、力の届く距離と粒子の質量の関係、1937年の宇宙線での発見、パウエルらによる2種類の中間子の発見。' },
-      { title: '湯川秀樹・朝永振一郎博士 生誕百年記念事業 よびかけ', publisher: '京都大学', url: 'https://www.kyoto-u.ac.jp/yt100/kikin.htm', accessed: '2026-11-18', note: '1949年の受賞が日本人初のノーベル賞であったこと、1935年の中間子論が1947年に実験で確かめられたこと、朝永と第三高等学校・京都大学で同級だったこと。基礎物理学研究所の新設（1953年）は大阪大学の略歴でも確認。' },
-      { title: 'Statement: The Russell-Einstein Manifesto', publisher: 'Pugwash Conferences on Science and World Affairs', url: 'https://pugwash.org/1955/07/09/statement-manifesto/', accessed: '2026-11-18', note: '1955年7月9日の宣言の本文と、湯川を含む11人の署名者。' },
-    ],
+    }
   },
   {
     id: 'tomonaga',
@@ -286,11 +252,6 @@ export const PEOPLE_PARTICLE: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Tomonaga.jpg',
       license: 'パブリックドメイン（スウェーデンで撮影から50年以上たった写真）',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Sin-Itiro Tomonaga – Biographical', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1965/tomonaga/biographical/', accessed: '2026-11-18', note: '東京での誕生と1913年の京都への転居、1929年の卒業と湯川との同級、仁科研究室、1937〜1939年のライプツィヒ、1940年からの中間子論、1941年の教授就任、1942年の相対論的な場の量子論の提案、くりこみ理論、1949年のプリンストン。同サイトの Facts のページは出生地を京都としているが、この経歴と筑波大学の略歴にしたがって東京とした。' },
-      { title: 'Award ceremony speech（Nobel Prize in Physics 1965）', publisher: 'NobelPrize.org', url: 'https://www.nobelprize.org/prizes/physics/1965/ceremony-speech/', accessed: '2026-11-18', note: 'ディラックらの量子電磁力学の困難、1943年の論文、1947年のラムシフトと質量・電荷のくりこみ、事故で授賞式に出られず東京のスウェーデン大使を通じて授与されたこと。' },
-      { title: '朝永関係史料（筑波大学 朝永記念室）', publisher: '京都大学基礎物理学研究所 湯川記念館史料室', url: 'https://www2.yukawa.kyoto-u.ac.jp/~yhal.oj/yts-memorial-archives/pdfs/4_tomonaga_ma_web.pdf', accessed: '2026-11-18', note: '朝永振一郎略歴：1906年3月31日に東京で生まれたこと、1932年の理化学研究所、1941年の東京文理科大学、1956〜1962年の学長、1963〜1969年の日本学術会議会長、1965年の受賞、1979年7月8日の死去。湯川に続く2人目の日本人受賞者であること。' },
-    ],
+    }
   },
 ]

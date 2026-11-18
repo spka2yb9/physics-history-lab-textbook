@@ -1,9 +1,5 @@
 import type { Person } from './types'
 
-const MT = 'MacTutor History of Mathematics（セント・アンドルーズ大学）'
-const LH = 'Linda Hall Library（Scientist of the Day）'
-const WA = 'Westminster Abbey'
-
 // 分野「熱力学・統計力学」の科学者
 export const PEOPLE_THERMO: Person[] = [
   {
@@ -36,11 +32,7 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Sadi_Carnot.jpeg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Sadi Carnot - Biography', publisher: MT, url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Carnot_Sadi/', accessed: '2026-11-18', note: '生没年と生没地、父ラザール、エコール・ポリテクニーク入学、1819年の休職、1824年の著書、1834年のクラペイロン、1824〜1826年のメモ、コレラによる死。' },
-      { title: 'Sadi Carnot', publisher: LH, url: 'https://www.lindahall.org/about/news/scientist-of-the-day/sadi-carnot/', accessed: '2026-11-18', note: '熱機関の効率が二つの温度の差で決まるという著書の内容と、のちにクラウジウスとトムソンが第2法則にまとめたこと。' },
-    ],
+    }
   },
   {
     id: 'joule',
@@ -73,12 +65,7 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Joule_James_Jeens_engraving.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'James Prescott Joule 1818 - 1889', publisher: 'Science Museum Group Collection', url: 'https://collection.sciencemuseumgroup.org.uk/people/cp37475/james-prescott-joule', accessed: '2026-11-18', note: '醸造業の家の生まれ、ドルトンに学んだこと、1840年のジュールの法則、1843年のコークでの発表。' },
-      { title: 'June 1849: James Prescott Joule and the Mechanical Equivalent of Heat', publisher: 'APS News（American Physical Society）', url: 'https://www.aps.org/publications/apsnews/201506/physicshistory.cfm', accessed: '2026-11-18', note: '羽根車の実験と1849年の王立協会への報告、トムソンとの共同実験、第1法則とのつながり。' },
-      { title: 'James Prescott Joule', publisher: WA, url: 'https://www.westminster-abbey.org/abbey-commemorations/commemorations/james-prescott-joule', accessed: '2026-11-18', note: '生年月日と没年月日、セールの墓地、記念碑の碑文。' },
-    ],
+    }
   },
   {
     id: 'clausius',
@@ -114,11 +101,7 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:ETH-BIB-Clausius,_Rudolf_Immanuel_(1822-1888)-Portrait-Portr_08873.png',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'Rudolf Clausius - Biography', publisher: MT, url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Clausius/', accessed: '2026-11-18', note: '生没年と生没地、学歴、1850年と1865年の論文、勤めた大学と年、普仏戦争での負傷、学長就任、コプリ・メダル。' },
-      { title: 'Rudolf Clausius', publisher: LH, url: 'https://www.lindahall.org/about/news/scientist-of-the-day/rudolf-clausius/', accessed: '2026-11-18', note: '1850年の第2法則の論文と、1865年にエントロピーと名づけたこと。' },
-    ],
+    }
   },
   {
     id: 'kelvin',
@@ -152,11 +135,7 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Lord_Kelvin_photograph.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'William Thomson (Lord Kelvin) - Biography', publisher: MT, url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Thomson/', accessed: '2026-11-18', note: '生い立ち、教授就任、1848年の絶対温度、1847年のジュールとの出会い、1852年のジュール・トムソン効果、海底電信ケーブル、叙勲、王立協会会長。' },
-      { title: 'William Thomson, Lord Kelvin', publisher: WA, url: 'https://www.westminster-abbey.org/abbey-commemorations/commemorations/william-thomson-lord-kelvin', accessed: '2026-11-18', note: '生没年月日、1846〜1899年の教授在職、科学者として初めての貴族、ニュートンの墓のそばへの埋葬。' },
-    ],
+    }
   },
   {
     id: 'boltzmann',
@@ -192,12 +171,7 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Ludwig_Boltzmann_1898.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: "Boltzmann's Work in Statistical Physics", publisher: 'Stanford Encyclopedia of Philosophy', url: 'https://plato.stanford.edu/entries/statphys-Boltzmann/', accessed: '2026-11-18', note: '1868年・1871年・1872年・1877年の論文の内容、墓に刻まれた式を本人は書いていないこと、死因についての見方。' },
-      { title: 'Ludwig Boltzmann', publisher: 'Universität Wien（650 plus）', url: 'https://geschichte.univie.ac.at/de/personen/ludwig-boltzmann', accessed: '2026-11-18', note: '生没年月日と生没地、1866年の博士号、シュテファンの助手、各大学に移った年。' },
-      { title: 'Ludwig Boltzmann - Biography', publisher: MT, url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/', accessed: '2026-11-18', note: '1884年のシュテファンの法則の導出、1895年のリューベックでのオストヴァルトとの論争、哲学の講義。' },
-    ],
+    }
   },
   {
     id: 'gibbs',
@@ -230,10 +204,6 @@ export const PEOPLE_THERMO: Person[] = [
       source: 'https://commons.wikimedia.org/wiki/File:Josiah_Willard_Gibbs_-from_MMS-.jpg',
       license: 'パブリックドメイン',
       accessed: '2026-11-18',
-    },
-    sources: [
-      { title: 'J Willard Gibbs - Biography', publisher: MT, url: 'https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/', accessed: '2026-11-18', note: '生没年と生没地、1863年の工学博士、ヨーロッパ留学、1871年の教授就任、1873〜1878年の論文、ベクトル解析、1902年の著書。' },
-      { title: 'Josiah Willard Gibbs', publisher: LH, url: 'https://www.lindahall.org/about/news/scientist-of-the-day/josiah-willard-gibbs/', accessed: '2026-11-18', note: '「不均一な物質の平衡について」の掲載誌と、抜き刷りをマクスウェルやボルツマンに送ったこと、1901年のコプリ・メダル。' },
-    ],
+    }
   },
 ]

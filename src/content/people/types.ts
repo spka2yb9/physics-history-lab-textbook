@@ -1,4 +1,3 @@
-import type { Source } from '../types'
 import type { FieldId } from '../fields'
 
 /** 肖像の画像と利用条件。Wikimedia Commons などで1枚ずつ確かめたものか、サイト運営者が利用の許可を確かめて用意したものだけを載せる。 */
@@ -45,6 +44,4 @@ export interface Person {
   /** 飾りとして載せる有名な式と、その意味を言葉で書いた1文。説明には使わない */
   equation?: { text: string; meaning: string }
   portrait?: Portrait
-  /** 経歴と業績の出典 */
-  sources: Source[]
 }

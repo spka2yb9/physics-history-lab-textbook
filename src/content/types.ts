@@ -1,20 +1,5 @@
 import type { ReactNode } from 'react'
 
-/** 参考文献（出典）1件。 */
-export interface Source {
-  /** 資料名 */
-  title: string
-  /** 発行者・著者・サイト名 */
-  publisher: string
-  url: string
-  /** 参照日 YYYY-MM-DD。実際に資料を確認した日 */
-  accessed: string
-  /** 対象バージョン・版・刊行年（該当する場合） */
-  version?: string
-  /** この資料が何の主張を支えるか */
-  note?: string
-}
-
 /** 章内の節（h2 相当）。 */
 export interface Section {
   /** URL ハッシュに使う ID（英小文字・数字・ハイフン） */
@@ -36,8 +21,6 @@ export interface Chapter {
   /** 前提となる章のキー */
   prerequisites: string[]
   sections: Section[]
-  /** 本文の <Ref n={1} /> は sources[0] を指す */
-  sources: Source[]
   /** この章に登場する科学者（people の id）。章末に人物カードを並べ、人物ページの「関連する章」にも使う */
   people?: string[]
   /** 歴史マップに載せる、この章で扱う発見や実験 */

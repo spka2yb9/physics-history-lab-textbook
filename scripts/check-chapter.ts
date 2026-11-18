@@ -16,7 +16,7 @@ const MIN_FIGS = 8
 /** 動く図（Anim）の最小数 */
 const MIN_ANIMS = 3
 /** 章ではないページ（#/people/newton など） */
-const SITE_PAGES = new Set(['sources', 'map', 'fields', 'people'])
+const SITE_PAGES = new Set(['map', 'fields', 'people'])
 
 const want = process.argv.slice(2)
 const server = await createServer({ server: { middlewareMode: true }, appType: 'custom', logLevel: 'error' })
@@ -112,8 +112,6 @@ try {
     let figs = 0
     let codes = 0
     let anims = 0
-    let maxRef = 0
-    const cited = new Set<number>()
     const prefix = `${shortFor(ch.key)}-`
     if (!parts.has(ch.part)) problems.push(`book.ts の PARTS にない部: ${ch.part}`)
     for (const { sec, html, error } of secs) {
@@ -134,10 +132,6 @@ try {
         const seq = Number(m[1].split('-')[1])
         if (seq !== ++lastFig) problems.push(`図番号が掲載順でない: 図${m[1]}（${lastFig}番目に掲載）`)
       }
-      for (const m of html.matchAll(/href="#src-(\d+)"/g)) {
-        maxRef = Math.max(maxRef, Number(m[1]))
-        cited.add(Number(m[1]))
-      }
       for (const m of html.matchAll(/href="#\/([\w-]+)(?:\/([\w-]+))?"/g)) {
         if (SITE_PAGES.has(m[1])) {
           if (m[1] === 'people' && m[2] && !personIds.has(m[2])) notes.add(`図鑑にまだいない人物へのリンク: ${m[2]}`)
@@ -156,13 +150,6 @@ try {
       chars += text.length
     }
     figsByChapter.set(ch.key, figIds)
-    if (maxRef > ch.sources.length) problems.push(`Ref n=${maxRef} に対応する出典がない（出典は ${ch.sources.length} 件）`)
-    if (ch.sources.length === 0) problems.push('出典が 0 件')
-    for (let i = 1; i <= ch.sources.length; i++) if (!cited.has(i)) problems.push(`本文で参照していない出典: [${i}] ${ch.sources[i - 1].title.slice(0, 40)}`)
-    for (const s of ch.sources) {
-      if (!/^\d{4}-\d{2}-\d{2}$/.test(s.accessed)) problems.push(`参照日の形式が不正: ${s.accessed}`)
-      if (!/^https?:\/\//.test(s.url)) problems.push(`URL が不正: ${s.url}`)
-    }
     for (const k of ch.prerequisites) if (!approved.has(k)) problems.push(`前提の章のキーが不正: ${k}`)
     if (chars < MIN_CHARS) problems.push(`本文が短い（${chars} 文字。コード・図を除く。目安 ${MIN_CHARS}）`)
     if (figs < MIN_FIGS) problems.push(`図が ${figs} 点（${MIN_FIGS} 点以上が目安）`)
@@ -173,7 +160,7 @@ try {
       for (const id of e.people ?? []) if (!personIds.has(id)) notes.add(`歴史マップの項目「${e.title}」の人物 ${id} が図鑑にまだない`)
     }
     const terms = secs.reduce((n, s) => n + (s.html?.match(DFN) ?? []).length, 0)
-    statsOf.set(ch.key, `節 ${ch.sections.length} / 本文 ${chars} 文字 / 図 ${figs}（動く図 ${anims}） / 用語 ${terms} / 出典 ${ch.sources.length} / 人物 ${ch.people?.length ?? 0} / 年表 ${ch.events?.length ?? 0}`)
+    statsOf.set(ch.key, `節 ${ch.sections.length} / 本文 ${chars} 文字 / 図 ${figs}（動く図 ${anims}） / 用語 ${terms} / 人物 ${ch.people?.length ?? 0} / 年表 ${ch.events?.length ?? 0}`)
   }
 
   // 図への参照（FigRef）の参照先が存在するか

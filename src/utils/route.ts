@@ -8,9 +8,8 @@ import { useEffect, useState } from 'react'
  *   #/map             歴史マップ
  *   #/fields          分野から学ぶ（#/fields/p2 で第2部の位置へ）
  *   #/people          科学者図鑑（#/people/newton で人物ページ）
- *   #/sources         参考資料の一覧
  */
-export type Page = 'home' | 'chapter' | 'map' | 'fields' | 'people' | 'person' | 'sources'
+export type Page = 'home' | 'chapter' | 'map' | 'fields' | 'people' | 'person'
 
 export interface Route {
   page: Page
@@ -20,17 +19,15 @@ export interface Route {
   section: string | null
   /** 人物ページの id */
   id: string | null
-  sources: boolean
 }
 
-const SITE_PAGES = new Set(['map', 'fields', 'people', 'sources'])
+const SITE_PAGES = new Set(['map', 'fields', 'people'])
 
 export function parseHash(hash: string): Route {
-  const base: Route = { page: 'home', chapter: null, section: null, id: null, sources: false }
+  const base: Route = { page: 'home', chapter: null, section: null, id: null }
   const m = /^#\/([\w-]+)(?:\/([\w-]+))?/.exec(hash)
   if (!m) return base
   const [, a, b = null] = m
-  if (a === 'sources') return { ...base, page: 'sources', sources: true }
   if (a === 'people') return b ? { ...base, page: 'person', id: b } : { ...base, page: 'people' }
   if (SITE_PAGES.has(a)) return { ...base, page: a as Page, section: b }
   return { ...base, page: 'chapter', chapter: a, section: b }

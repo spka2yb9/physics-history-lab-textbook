@@ -1,6 +1,6 @@
 // 各章を静的HTMLに描画し、次の3つを書き出す。
 //   search-index.json  節ごとの本文テキスト（全文検索）
-//   chapter-meta.json  章と節の見出しなど（目次・前後の章・参考資料一覧）
+//   chapter-meta.json  章と節の見出しなど（目次・前後の章）
 //   terms.json         Term で定義した用語と、定義している章・節（glossary モジュールの解説）
 // 実行: npm run build:index
 import { writeFileSync } from 'node:fs'
