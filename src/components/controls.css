@@ -1,0 +1,19 @@
+/* 操作できる図の部品（controls.tsx） */
+.ctl { margin: 0; padding: 0; border: none; min-width: 0; }
+.ctl-range { display: grid; grid-template-columns: auto minmax(120px, 220px) auto; align-items: center; gap: 4px 10px; }
+.ctl-range label { color: var(--fg-muted); }
+.ctl-range input { width: 100%; accent-color: var(--accent); }
+.ctl-range output { font-variant-numeric: tabular-nums; min-width: 3em; white-space: nowrap; }
+.ctl-choice legend { color: var(--fg-muted); padding: 0; margin-bottom: 4px; float: left; width: 100%; }
+.seg { clear: both; display: inline-flex; flex-wrap: wrap; border: 1px solid var(--line-strong); border-radius: 8px; overflow: hidden; }
+.seg label { position: relative; padding: 5px 12px; cursor: pointer; border-left: 1px solid var(--line-strong); color: var(--fg); background: var(--bg-elev); }
+.seg label:first-child { border-left: none; }
+.seg label.on { background: var(--fg); color: var(--bg-elev); }
+.seg input { position: absolute; opacity: 0; inset: 0; margin: 0; cursor: pointer; }
+.seg label:has(input:focus-visible) { outline: 2px solid var(--accent); outline-offset: -2px; z-index: 1; }
+.ctl-check { display: inline-flex; gap: 6px; align-items: center; cursor: pointer; }
+.ctl-check input { width: 18px; height: 18px; accent-color: var(--accent); margin: 0; }
+@media (max-width: 600px) {
+  .ctl-range { grid-template-columns: 1fr auto; }
+  .ctl-range label { grid-column: 1 / -1; }
+}

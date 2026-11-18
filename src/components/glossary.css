@@ -1,0 +1,18 @@
+/* 用語の解説（glossary.tsx）。押せる用語はリンク（青の実線）と区別するため、点線の下線にする */
+.gloss {
+  font: inherit; color: inherit; background: none; border: 0; padding: 0; margin: 0; cursor: pointer;
+  text-decoration: underline dotted var(--fg-muted); text-decoration-thickness: 1.5px; text-underline-offset: 4px;
+}
+.gloss:hover { text-decoration-color: var(--accent); }
+.gloss-pop {
+  width: min(28rem, calc(100vw - 32px)); padding: 14px 18px 16px; margin: auto;
+  border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg-elev); color: var(--fg);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.25); font-size: 15px; line-height: 1.8; text-align: left;
+}
+.gloss-pop:popover-open { display: flex; flex-direction: column; gap: 8px; }
+.gloss-pop::backdrop { background: rgba(0, 0, 0, 0.2); }
+.gloss-head { display: flex; align-items: flex-start; gap: 12px; }
+.gloss-term { flex: 1; font-weight: 600; font-size: 16px; }
+.gloss-close { flex: none; width: 30px; height: 30px; border: 1px solid var(--line); border-radius: 6px; background: none; cursor: pointer; font-size: 18px; line-height: 1; color: var(--fg-muted); }
+.gloss-at { font-size: 14px; }
+@media print { .gloss { text-decoration: none; } }
